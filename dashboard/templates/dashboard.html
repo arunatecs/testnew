@@ -1,0 +1,83 @@
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+
+
+  <head>
+
+ <style>
+    .container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+        grid-gap: 20px; /* Gap between grid items */
+    }
+
+    .block {
+        background-color: #f0f0f0; /* Background color */
+        padding: 20px; /* Padding around content */
+        border: 1px solid #ccc; /* Border */
+        border-radius: 5px; /* Rounded corners */
+    }
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f4f4f4;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.dashboard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 30px;
+    width: 90vw;
+    
+    margin-top: 20px;
+}
+img{
+    height:300px
+}
+
+.chart-container {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+canvas {
+    width: 100% !important;
+    height: 100% !important;
+}
+
+</style>
+</head>
+<body>
+    {% load static %}  
+  <h1>Fitbit Dashboard</h1>
+  <div class="dashboard">
+      <div class="chart-container">
+          
+          <img src="{% static 'dashboard/all_activities.png' %}" alt="Activity Chart">
+      </div>
+      <div class="chart-container">
+         
+        <img src="{% static 'dashboard/heartrate.png' %}" alt="Heart Rate Chart">
+      </div>
+      <div class="chart-container">
+        <img src="{% static 'dashboard/all_activities.png' %}" alt="Activity Chart">
+      </div>
+      <div class="chart-container">
+        <img src="{% static 'dashboard/all_activities.png' %}" alt="Activity Chart">
+      </div>
+  </div>
+  
+    

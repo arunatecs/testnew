@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Heart Rate Zones Chart</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <canvas id="heartRateZonesChart" width="800" height="400"></canvas>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var ctx = document.getElementById('heartRateZonesChart').getContext('2d');
+            var zone_names = JSON.parse('{{ zone_names|safe }}');
+            var minutes = JSON.parse('{{ minutes|safe }}');
+            var min_bpm = JSON.parse('{{ min_bpm|safe }}');
+            var max_bpm = JSON.parse('{{ max_bpm|safe }}');
+ 
+            var colors = [
+            'rgba(51, 102, 153, 0.8)',  // Dark blue with 80% opacity
+            'rgba(102, 51, 153, 0.8)',  // Dark purple with 80% opacity
+            'rgba(153, 51, 51, 0.8)',   // Dark red with 80% opacity
+            'rgba(51, 102, 51, 0.8)',
+            ];
+
+            var barChartData = [];
+            for (var i = 0; i < zone_names.length; i++) {
+                var percentage = ((minutes[i] / 1440) * 100).toFixed(2); // Calculate percentage
+                var label = percentage + '% ' + min_bpm[i] + ':' + max_bpm[i]; // Construct label
+                barChartData.push({
+                    label: zone_names[i], // Use zone name as label
+                    data: [{
+                        x: percentage,
+                        y: label
+                    }],
+                    backgroundColor: colors[i % colors.length], // Use modulo to cycle through colors array
+                    borderColor: colors[i % colors.length],
+                    borderWidth: 1
+                });
+            }
+
+            var myChart = new Chart(ctx, {
+                type: 'bar',
+                data: {
+                    datasets: barChartData
+                },
+                options: {
+                    indexAxis: 'y',
+                    scales: {
+                        x: {
+                            stacked: true,
+                            beginAtZero: true
+                        },
+                        y: {
+                            stacked: true
+                        }
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

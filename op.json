@@ -1,0 +1,472 @@
+{
+  "activities": [
+    {
+      "activeDuration": 1690000,
+      "activeZoneMinutes": {
+        "minutesInHeartRateZones": [
+          {
+            "minuteMultiplier": 0,
+            "minutes": 0,
+            "order": 0,
+            "type": "OUT_OF_ZONE",
+            "zoneName": "Out of Range"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 2,
+            "type": "CARDIO",
+            "zoneName": "Cardio"
+          },
+          {
+            "minuteMultiplier": 1,
+            "minutes": 0,
+            "order": 1,
+            "type": "FAT_BURN",
+            "zoneName": "Fat Burn"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 3,
+            "type": "PEAK",
+            "zoneName": "Peak"
+          }
+        ],
+        "totalMinutes": 0
+      },
+      "activityLevel": [
+        { "minutes": 6, "name": "sedentary" },
+        { "minutes": 22, "name": "lightly" },
+        { "minutes": 0, "name": "fairly" },
+        { "minutes": 0, "name": "very" }
+      ],
+      "activityName": "Outdoor Bike",
+      "activityTypeId": 1071,
+      "averageHeartRate": 84,
+      "calories": 76,
+      "duration": 1690000,
+      "elevationGain": 12.192,
+      "hasActiveZoneMinutes": true,
+      "heartRateLink": "https://api.fitbit.com/1/user/-/activities/heart/date/2024-04-10/2024-04-10/1sec/time/16:59:42/17:27:52.json",
+      "heartRateZones": [
+        {
+          "caloriesOut": 75.5533,
+          "max": 107,
+          "min": 30,
+          "minutes": 28,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 126,
+          "min": 107,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 149,
+          "min": 126,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 149,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "lastModified": "2024-04-11T02:32:39.000Z",
+      "logId": 62711957121,
+      "logType": "auto_detected",
+      "manualValuesSpecified": {
+        "calories": false,
+        "distance": false,
+        "steps": false
+      },
+      "originalDuration": 1690000,
+      "originalStartTime": "2024-04-10T16:59:42.000+05:30",
+      "startTime": "2024-04-10T16:59:42.000+05:30",
+      "tcxLink": "https://api.fitbit.com/1/user/-/activities/62711957121.tcx"
+    },
+    {
+      "activeDuration": 2406000,
+      "activeZoneMinutes": {
+        "minutesInHeartRateZones": [
+          {
+            "minuteMultiplier": 0,
+            "minutes": 0,
+            "order": 0,
+            "type": "OUT_OF_ZONE",
+            "zoneName": "Out of Range"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 2,
+            "type": "CARDIO",
+            "zoneName": "Cardio"
+          },
+          {
+            "minuteMultiplier": 1,
+            "minutes": 0,
+            "order": 1,
+            "type": "FAT_BURN",
+            "zoneName": "Fat Burn"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 3,
+            "type": "PEAK",
+            "zoneName": "Peak"
+          }
+        ],
+        "totalMinutes": 0
+      },
+      "activityLevel": [
+        { "minutes": 15, "name": "sedentary" },
+        { "minutes": 25, "name": "lightly" },
+        { "minutes": 0, "name": "fairly" },
+        { "minutes": 0, "name": "very" }
+      ],
+      "activityName": "Outdoor Bike",
+      "activityTypeId": 1071,
+      "averageHeartRate": 78,
+      "calories": 76,
+      "duration": 2406000,
+      "elevationGain": 3.048,
+      "hasActiveZoneMinutes": true,
+      "heartRateLink": "https://api.fitbit.com/1/user/-/activities/heart/date/2024-04-10/2024-04-10/1sec/time/19:05:09/19:45:15.json",
+      "heartRateZones": [
+        {
+          "caloriesOut": 76.09853,
+          "max": 107,
+          "min": 30,
+          "minutes": 40,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 126,
+          "min": 107,
+          "minutes": 0,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 149,
+          "min": 126,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 149,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "lastModified": "2024-04-11T02:32:39.000Z",
+      "logId": 62711957122,
+      "logType": "auto_detected",
+      "manualValuesSpecified": {
+        "calories": false,
+        "distance": false,
+        "steps": false
+      },
+      "originalDuration": 2406000,
+      "originalStartTime": "2024-04-10T19:05:09.000+05:30",
+      "startTime": "2024-04-10T19:05:09.000+05:30",
+      "tcxLink": "https://api.fitbit.com/1/user/-/activities/62711957122.tcx"
+    },
+    {
+      "activeDuration": 3123000,
+      "activeZoneMinutes": {
+        "minutesInHeartRateZones": [
+          {
+            "minuteMultiplier": 0,
+            "minutes": 0,
+            "order": 0,
+            "type": "OUT_OF_ZONE",
+            "zoneName": "Out of Range"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 2,
+            "type": "CARDIO",
+            "zoneName": "Cardio"
+          },
+          {
+            "minuteMultiplier": 1,
+            "minutes": 1,
+            "order": 1,
+            "type": "FAT_BURN",
+            "zoneName": "Fat Burn"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 3,
+            "type": "PEAK",
+            "zoneName": "Peak"
+          }
+        ],
+        "totalMinutes": 1
+      },
+      "activityLevel": [
+        { "minutes": 12, "name": "sedentary" },
+        { "minutes": 40, "name": "lightly" },
+        { "minutes": 0, "name": "fairly" },
+        { "minutes": 0, "name": "very" }
+      ],
+      "activityName": "Outdoor Bike",
+      "activityTypeId": 1071,
+      "averageHeartRate": 100,
+      "calories": 103,
+      "duration": 3123000,
+      "elevationGain": 21.336,
+      "hasActiveZoneMinutes": true,
+      "heartRateLink": "https://api.fitbit.com/1/user/-/activities/heart/date/2024-04-21/2024-04-21/1sec/time/07:51:21/08:43:24.json",
+      "heartRateZones": [
+        {
+          "caloriesOut": 100.63387999999999,
+          "max": 108,
+          "min": 30,
+          "minutes": 51,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 2.41459,
+          "max": 127,
+          "min": 108,
+          "minutes": 1,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 150,
+          "min": 127,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 150,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "lastModified": "2024-04-24T05:33:02.000Z",
+      "logId": 62991508190,
+      "logType": "auto_detected",
+      "manualValuesSpecified": {
+        "calories": false,
+        "distance": false,
+        "steps": false
+      },
+      "originalDuration": 3123000,
+      "originalStartTime": "2024-04-21T07:51:21.000+05:30",
+      "startTime": "2024-04-21T07:51:21.000+05:30",
+      "tcxLink": "https://api.fitbit.com/1/user/-/activities/62991508190.tcx"
+    },
+    {
+      "activeDuration": 3482000,
+      "activeZoneMinutes": {
+        "minutesInHeartRateZones": [
+          {
+            "minuteMultiplier": 0,
+            "minutes": 0,
+            "order": 0,
+            "type": "OUT_OF_ZONE",
+            "zoneName": "Out of Range"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 2,
+            "type": "CARDIO",
+            "zoneName": "Cardio"
+          },
+          {
+            "minuteMultiplier": 1,
+            "minutes": 8,
+            "order": 1,
+            "type": "FAT_BURN",
+            "zoneName": "Fat Burn"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 3,
+            "type": "PEAK",
+            "zoneName": "Peak"
+          }
+        ],
+        "totalMinutes": 8
+      },
+      "activityLevel": [
+        { "minutes": 13, "name": "sedentary" },
+        { "minutes": 45, "name": "lightly" },
+        { "minutes": 0, "name": "fairly" },
+        { "minutes": 0, "name": "very" }
+      ],
+      "activityName": "Outdoor Bike",
+      "activityTypeId": 1071,
+      "averageHeartRate": 106,
+      "calories": 118,
+      "duration": 3482000,
+      "elevationGain": 21.336,
+      "hasActiveZoneMinutes": true,
+      "heartRateLink": "https://api.fitbit.com/1/user/-/activities/heart/date/2024-04-21/2024-04-21/1sec/time/10:12:08/11:10:10.json",
+      "heartRateZones": [
+        {
+          "caloriesOut": 100.47810000000001,
+          "max": 108,
+          "min": 30,
+          "minutes": 50,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 17.60314,
+          "max": 127,
+          "min": 108,
+          "minutes": 8,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 150,
+          "min": 127,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 150,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "lastModified": "2024-04-24T05:33:07.000Z",
+      "logId": 62991264602,
+      "logType": "auto_detected",
+      "manualValuesSpecified": {
+        "calories": false,
+        "distance": false,
+        "steps": false
+      },
+      "originalDuration": 3482000,
+      "originalStartTime": "2024-04-21T10:12:08.000+05:30",
+      "startTime": "2024-04-21T10:12:08.000+05:30",
+      "tcxLink": "https://api.fitbit.com/1/user/-/activities/62991264602.tcx"
+    },
+    {
+      "activeDuration": 2100000,
+      "activeZoneMinutes": {
+        "minutesInHeartRateZones": [
+          {
+            "minuteMultiplier": 0,
+            "minutes": 0,
+            "order": 0,
+            "type": "OUT_OF_ZONE",
+            "zoneName": "Out of Range"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 2,
+            "type": "CARDIO",
+            "zoneName": "Cardio"
+          },
+          {
+            "minuteMultiplier": 1,
+            "minutes": 2,
+            "order": 1,
+            "type": "FAT_BURN",
+            "zoneName": "Fat Burn"
+          },
+          {
+            "minuteMultiplier": 2,
+            "minutes": 0,
+            "order": 3,
+            "type": "PEAK",
+            "zoneName": "Peak"
+          }
+        ],
+        "totalMinutes": 2
+      },
+      "activityLevel": [
+        { "minutes": 9, "name": "sedentary" },
+        { "minutes": 26, "name": "lightly" },
+        { "minutes": 0, "name": "fairly" },
+        { "minutes": 0, "name": "very" }
+      ],
+      "activityName": "Outdoor Bike",
+      "activityTypeId": 1071,
+      "averageHeartRate": 98,
+      "calories": 82,
+      "duration": 2100000,
+      "elevationGain": 0,
+      "hasActiveZoneMinutes": true,
+      "heartRateLink": "https://api.fitbit.com/1/user/-/activities/heart/date/2024-04-25/2024-04-25/1sec/time/17:30:46/18:05:46.json",
+      "heartRateZones": [
+        {
+          "caloriesOut": 76.72165000000001,
+          "max": 107,
+          "min": 30,
+          "minutes": 33,
+          "name": "Out of Range"
+        },
+        {
+          "caloriesOut": 5.14074,
+          "max": 126,
+          "min": 107,
+          "minutes": 2,
+          "name": "Fat Burn"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 149,
+          "min": 126,
+          "minutes": 0,
+          "name": "Cardio"
+        },
+        {
+          "caloriesOut": 0,
+          "max": 220,
+          "min": 149,
+          "minutes": 0,
+          "name": "Peak"
+        }
+      ],
+      "lastModified": "2024-04-25T23:36:05.000Z",
+      "logId": 63029929105,
+      "logType": "auto_detected",
+      "manualValuesSpecified": {
+        "calories": false,
+        "distance": false,
+        "steps": false
+      },
+      "originalDuration": 2100000,
+      "originalStartTime": "2024-04-25T17:30:46.000+05:30",
+      "startTime": "2024-04-25T17:30:46.000+05:30",
+      "tcxLink": "https://api.fitbit.com/1/user/-/activities/63029929105.tcx"
+    }
+  ],
+  "pagination": {
+    "afterDate": "2019-01-01",
+    "limit": 10,
+    "next": "",
+    "offset": 0,
+    "previous": "",
+    "sort": "asc"
+  }
+}
